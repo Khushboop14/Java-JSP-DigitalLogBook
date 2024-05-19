@@ -1,6 +1,8 @@
 <%@page import= "java.sql.DriverManager" %>
 <%@page import= "java.sql.PreparedStatement"%>
 <%@page import= "java.sql.Connection"%>
+<%@page import= "java.util.*"%>
+
 <%
     String name=request.getParameter("name");
     String cont=request.getParameter("contact");
@@ -12,5 +14,5 @@
       st.setString(3,complain);
     
       st.executeUpdate();
-      response.sendRedirect("userpageafterlogin.jsp");
+      response.sendRedirect("AfterLoginPage.jsp");
 %> 

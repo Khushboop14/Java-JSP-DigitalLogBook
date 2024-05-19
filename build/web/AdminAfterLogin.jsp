@@ -34,17 +34,17 @@
              </tr>
             
             <tr>
-                <td class="formeles"><a href="paymentPage.jsp">CLIENT PAYMENT DUES</td>
+                <td class="formeles"><a href="PaymentPage.jsp">CLIENT PAYMENT DUES</td>
             </tr>
             <tr>
                 <td class="formeles"><a href="ManageClientPage.jsp">MANAGE CLIENTS </a></td>
             </tr>
             
              <tr>
-                <td class="formeles"><a href="viewFeedbackpage.jsp">VIEW FEEDBACK</a></td>
+                <td class="formeles"><a href="ViewFeedbackPage.jsp">VIEW FEEDBACK</a></td>
             </tr>
              <tr>
-                <td class="formeles"><a href="viewComplainPage.jsp">VIEW COMPLAIN</a></td>
+                <td class="formeles"><a href="ViewComplaintPage.jsp">VIEW COMPLAIN</a></td>
             </tr>
           </table>    
         </form>
