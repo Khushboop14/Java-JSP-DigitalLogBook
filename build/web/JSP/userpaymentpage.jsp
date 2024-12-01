@@ -14,7 +14,7 @@
             </tr>
             
              <tr>
-                <td class="coltheme"><a href="userpageagterlogin.jsp">EXIT</a></td>  
+                <td class="coltheme"><a href="AdminAfterLogin.jsp">EXIT</a></td>
             </tr>
 
           </table> 
