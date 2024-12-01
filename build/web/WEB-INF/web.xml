@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+<web-app version="3.1" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+">
     <session-config>
+        <!-- Sets the session timeout to 30 minutes -->
         <session-timeout>
             30
         </session-timeout>
     </session-config>
-    <servlet>
-    <servlet-name>MyServlet</servlet-name>
-    <servlet-class>com.example.MyServlet</servlet-class>
-</servlet>
-<servlet-mapping>
-    <servlet-name>MyServlet</servlet-name>
-    <url-pattern>/myservlet</url-pattern>
-</servlet-mapping>
 
+    <!-- Servlet configuration -->
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.example.MyServlet</servlet-class>
+    </servlet>
+
+    <!-- Maps the servlet to the URL pattern /myservlet -->
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/myservlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Configures the default welcome file -->
     <welcome-file-list>
         <welcome-file>newjsp.jsp</welcome-file>
     </welcome-file-list>
